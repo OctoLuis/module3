@@ -6,24 +6,40 @@ body {
 }
 #header-nav {
     position: relative;
+    background-color: #b7acad;
     border-radius: 0;
     border: 0;
     box-shadow: 0 12px 8px 0 #000000;
 }
 .navbar-brand span{
     color: #000000;
+    font-size: 24px;
+    font-style: italic;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
 button {
     position: absolute;
+    background-color: #9acfea;
     float: right;
+}
+hr {
+    width: 60%;
 }
 #nav-list{
     margin: -5px -20px -5px -20px;
     text-align: center;
-    background-color: #ffedef;
+    background-color: white;
 }
-#nav-list li {color: black}
+#text-title {
+    font-size: 24px;
+    text-align: center;
+}
+#main-section {
+    padding: 40px 40px;
+    margin: 16px 20px 200px 20px;
+    background-color: #252222;
+    overflow: auto;
+}
 
